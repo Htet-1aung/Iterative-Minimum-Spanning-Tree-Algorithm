@@ -18,7 +18,7 @@ Iterative Minimum Spanning Tree Algorithm is an algorithm uses greedy approach  
 
 ## Drawbacks of IMST Algorithm 
 
-
+Time Complexity of IMST Algorithm is O (V + E)
 
 ## Time Complexity of IMST Algorithm
 
