@@ -2,7 +2,7 @@
 
 The BFS-based IMST algorithm is a graph algorithm that finds the Minimum Spanning Tree (MST) of a graph. The MST is a subset of the edges of the graph that connects all the vertices of the graph with the minimum total weight.
 
-**Algorithm**
+## Algorithm
 
 The BFS-based IMST algorithm works as follows:
 
@@ -13,25 +13,25 @@ The BFS-based IMST algorithm works as follows:
     * Add all the edges connected to the destination vertex to the priority queue.
 3. Repeat steps 2 and 3 until all vertices are visited.
 
-**Drawbacks**
+## Drawbacks
 
 * The BFS-based MST algorithm has a worst-case time complexity of O(E log V), which is slightly worse than Prim's algorithm, which has a worst-case time complexity of O(E log E).
 * The BFS-based MST algorithm requires more space than Prim's algorithm, as it needs to store the priority queue.
 
-**Advantages**
+## Advantages
 
 * The BFS-based IMST algorithm is typically faster than Prim's algorithm for sparse graphs (graphs with a small number of edges compared to the number of vertices).
 * The BFS-based IMST algorithm is easier to implement than Prim's algorithm.
 
-**Time Complexity**
+## Time Complexity
 
 The time complexity of the BFS-based IMST algorithm is O(E log V), where E is the number of edges and V is the number of vertices in the graph.
 
-**Space Complexity**
+## Space Complexity
 
 The space complexity of the BFS-based IMST algorithm is O(V + E), where V is the number of vertices and E is the number of edges in the graph.
 
-**Applications**
+## Applications
 
 The BFS-based IMST algorithm is used in a variety of applications, including:
 
@@ -40,6 +40,6 @@ The BFS-based IMST algorithm is used in a variety of applications, including:
 * Clustering
 * Image segmentation
 
-**Conclusion**
+## Conclusion
 
 The BFS-based MST algorithm is a simple and efficient algorithm for finding the MST of a graph. It is particularly useful for sparse graphs, as it has a better time complexity than other MST algorithms such as Kruskal's algorithm.
