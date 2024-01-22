@@ -1,5 +1,3 @@
-**README.md for BFS-based MST Algorithm**
-
 **Overview**
 
 The BFS-based IMST algorithm is a graph algorithm that finds the Minimum Spanning Tree (MST) of a graph. The MST is a subset of the edges of the graph that connects all the vertices of the graph with the minimum total weight.
